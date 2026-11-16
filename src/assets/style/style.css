@@ -4,10 +4,7 @@
    Complete Responsive Stylesheet
 ========================================== */
 
-
-/* ==========================================
-   ROOT VARIABLES
-========================================== */
+/* ROOT VARIABLES */
 
 :root {
     --primary: #B3264D;
@@ -19,10 +16,7 @@
     --muted-bg: #FBEDE4;
 }
 
-
-/* ==========================================
-   GLOBAL STYLES
-========================================== */
+/* GLOBAL STYLES */
 
 * {
     box-sizing: border-box;
@@ -52,10 +46,7 @@ a {
     text-decoration: none;
 }
 
-
-/* ==========================================
-   CONTAINER
-========================================== */
+/* CONTAINER */
 
 .container {
     max-width: 1600px !important;
@@ -64,10 +55,7 @@ a {
     padding-right: 48px;
 }
 
-
-/* ==========================================
-   TOP STRIP
-========================================== */
+/* TOP STRIP */
 
 .top-strip {
     background: var(--dark-bg);
@@ -75,7 +63,6 @@ a {
     font-size: .9rem;
     padding: 8px 0;
 }
-
 
 /* ==========================================
    NAVBAR
@@ -108,7 +95,7 @@ a {
     color: var(--primary) !important;
 }
 
-
+/* Navbar Icons */
 .nav-icons {
     display: flex;
     align-items: center;
@@ -116,7 +103,6 @@ a {
     font-size: 1.4rem;
     color: var(--primary-dark);
 }
-
 
 .cart-icon {
     position: relative;
@@ -132,7 +118,6 @@ a {
     padding: 2px 6px;
     border-radius: 50%;
 }
-
 
 /* ==========================================
    HERO SECTION
@@ -166,7 +151,6 @@ a {
     line-height: 1.7;
 }
 
-
 /* Hero Buttons */
 
 .hero-btns .btn-primary-custom {
@@ -189,7 +173,6 @@ a {
     font-weight: 600;
     font-size: 1.05rem;
 }
-
 
 /* Hero Image */
 
@@ -217,7 +200,6 @@ a {
     height: 100%;
     object-fit: contain;
 }
-
 
 /* ==========================================
    TRUST STRIP
@@ -265,7 +247,6 @@ a {
     font-size: .95rem;
 }
 
-
 /* ==========================================
    COMMON SECTIONS
 ========================================== */
@@ -294,7 +275,6 @@ a {
     background: var(--gold);
     margin: 14px auto 0;
 }
-
 
 /* ==========================================
    CATEGORIES
@@ -339,7 +319,6 @@ a {
     font-size: 1.05rem;
 }
 
-
 /* ==========================================
    PRODUCTS / BEST SELLERS
 ========================================== */
@@ -378,7 +357,6 @@ a {
     display: block;
 }
 
-
 /* Wishlist Button */
 
 .wishlist-btn {
@@ -400,7 +378,6 @@ a {
     color: var(--primary);
     cursor: pointer;
 }
-
 
 /* Product Information */
 
@@ -430,7 +407,6 @@ a {
     font-size: 1.2rem;
 }
 
-
 /* Primary Button */
 
 .btn-primary-custom {
@@ -449,7 +425,6 @@ a {
     background: var(--primary-dark);
     color: #fff;
 }
-
 
 /* ==========================================
    CUSTOM CAKE BANNER
@@ -518,7 +493,6 @@ a {
     object-fit: contain;
 }
 
-
 /* ==========================================
    FOOTER
 ========================================== */
@@ -565,7 +539,6 @@ a {
     font-size: 1rem;
 }
 
-
 /* Social Icons */
 
 .social-icons {
@@ -593,7 +566,6 @@ a {
     color: var(--dark-bg);
 }
 
-
 /* Newsletter */
 
 .newsletter-form {
@@ -619,7 +591,6 @@ a {
     cursor: pointer;
 }
 
-
 /* Footer Bottom */
 
 .footer-bottom {
@@ -630,7 +601,6 @@ a {
     font-size: .95rem;
     color: #cdb6a5;
 }
-
 
 /* ==========================================
    LARGE DESKTOP
@@ -649,7 +619,6 @@ a {
 
 }
 
-
 /* ==========================================
    LAPTOP
 ========================================== */
@@ -662,7 +631,6 @@ a {
     }
 
 }
-
 
 /* ==========================================
    TABLET
@@ -712,7 +680,6 @@ a {
     }
 
 }
-
 
 /* ==========================================
    MOBILE
@@ -862,7 +829,7 @@ a {
         white-space: nowrap;
     }
 
-    /* Search and Cart */
+    /* Search, User and Cart */
     .nav-icons {
         order: 2;
         display: flex;
@@ -882,9 +849,9 @@ a {
         padding: 0;
     }
 
-    /* Hide User Icon on Mobile */
+    /* Show User Icon on Mobile */
     .nav-icons .user-icon {
-        display: none;
+        display: block;
     }
 
     /* Hamburger Button */
