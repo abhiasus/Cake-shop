@@ -108,10 +108,15 @@ a {
     color: var(--primary) !important;
 }
 
+
 .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px !important;
     font-size: 1.4rem;
     color: var(--primary-dark);
 }
+
 
 .cart-icon {
     position: relative;
